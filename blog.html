@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - ONG Dexter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ONG DEXTER</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="voluntariado.html">Voluntariado</a></li>
+                    <li><a href="doacoes.html">Doações</a></li>
+                    <li><a href="transparencia.html">Transparência</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <h2>Blog da ONG Dexter</h2>
+        <p>Notícias, dicas e histórias sobre nossos projetos e ações sociais.</p>
+    </section>
+
+    <main class="container">
+        <section class="blog-posts">
+            <article class="post">
+                <picture>
+                    <source srcset="imagens/blog1.webp" type="image/webp">
+                    <img src="imagens/blog1.jpg" alt="Crianças participando de projeto educacional" loading="lazy">
+                </picture>
+                <h3>Educação transforma vidas</h3>
+                <p>Saiba como nosso projeto "Educação para Todos" impactou mais de 500 crianças em 2025.</p>
+                <a href="#" class="btn">Leia Mais</a>
+            </article>
+
+            <article class="post">
+                <picture>
+                    <source srcset="imagens/blog2.webp" type="image/webp">
+                    <img src="imagens/blog2.jpg" alt="Ação de saúde comunitária" loading="lazy">
+                </picture>
+                <h3>Saúde em Movimento: uma ação de amor</h3>
+                <p>Conheça as campanhas de saúde realizadas pela ONG Dexter, levando atendimento a quem mais precisa.</p>
+                <a href="#" class="btn">Leia Mais</a>
+            </article>
+
+            <article class="post">
+                <picture>
+                    <source srcset="imagens/blog3.webp" type="image/webp">
+                    <img src="imagens/blog3.jpg" alt="Voluntários recolhendo lixo na comunidade" loading="lazy">
+                </picture>
+                <h3>Recicla Dexter: conscientização ambiental</h3>
+                <p>Veja como nosso projeto ambiental está mudando hábitos e preservando nosso planeta.</p>
+                <a href="#" class="btn">Leia Mais</a>
+            </article>
+        </section>
+
+        <aside class="newsletter">
+            <h3>Assine nossa Newsletter</h3>
+            <form action="#" method="post">
+                <label for="email-newsletter">E-mail:</label>
+                <input type="email" id="email-newsletter" name="email-newsletter" required placeholder="seuemail@exemplo.com">
+
+                <label for="preferencias">Preferências de conteúdo:</label>
+                <select id="preferencias" name="preferencias" required>
+                    <option value="">Selecione</option>
+                    <option value="educacao">Educação</option>
+                    <option value="saude">Saúde</option>
+                    <option value="meioambiente">Meio Ambiente</option>
+                    <option value="animais">Animais</option>
+                </select>
+
+                <button type="submit" class="btn">Assinar</button>
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 ONG Dexter. Todos os direitos reservados.</p>
+            <div class="social">
+                <a href="#">Facebook</a> |
+                <a href="#">Instagram</a> |
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

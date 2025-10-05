@@ -3,44 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de usuário de ONG</title>
+    <title>ONG Dexter - Transformando Vidas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Usuario da ONG</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="projeto.html">Projeto</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>ONG DEXTER</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="voluntariado.html">Voluntariado</a></li>
+                    <li><a href="doacoes.html">Doações</a></li>
+                    <li><a href="transparencia.html">Transparência</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Quem Somos</h2>
-            <p>Somos uma organizaação sem fins lucrativos de animais abandonados</p>
-            <img src="imagens/cachorro.jpg" alt="Voluntarios em acao">
-        </section>
 
-        <section>
-            <h2>Missao da ONG DEXTER</h2>
-            <p>Promover adoção de animais abandonados</p>
-        </section>
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Transformando vidas através da solidariedade</h2>
+            <p>Junte-se à ONG Dexter e faça parte de uma rede que leva esperança, educação e dignidade a quem mais precisa.</p>
+            <a href="doacoes.html" class="btn">Faça uma Doação</a>
+        </div>
+    </section>
 
-        <section>
-            <h2>Contato da ONG</h2>
-            <address>
-                <p>Endereço: Rua do Dexter, 219 - Bairro Boa Vista -São Paulo-Sp</p>
-                <p>Telefone: (11)88888-8888</p>
-                <p>Email: contato@OngAmigao.com.br</p>
-            </address>
+    <section class="about">
+        <h2>Quem Somos</h2>
+        <p>A ONG Dexter é uma organização sem fins lucrativos dedicada a promover inclusão social, educação e oportunidades para comunidades em situação de vulnerabilidade. Nosso trabalho é movido por empatia, amor e compromisso com o futuro.</p>
+        <a href="sobre.html" class="btn">Saiba Mais</a>
+    </section>
 
-        </section>
-    </main>
+    <section class="projects">
+        <h2>Projetos em Destaque</h2>
+        <div class="project-cards">
+            <div class="card">
+                <img src="img/projeto-educacao.jpg" alt="Projeto Educação">
+                <h3>Educação para Todos</h3>
+                <p>Oferecemos aulas gratuitas e reforço escolar para crianças e adolescentes.</p>
+                <a href="projetos.html" class="btn-secondary">Ver Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/projeto-familia.jpg" alt="Projeto Família">
+                <h3>Apoio às Famílias</h3>
+                <p>Distribuição de cestas básicas e atendimento psicológico para famílias carentes.</p>
+                <a href="projetos.html" class="btn-secondary">Ver Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/projeto-saude.jpg" alt="Projeto Saúde">
+                <h3>Saúde em Movimento</h3>
+                <p>Campanhas de vacinação, doação de sangue e atendimento médico voluntário.</p>
+                <a href="projetos.html" class="btn-secondary">Ver Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Quer fazer parte dessa transformação?</h2>
+        <p>Seja um voluntário e ajude a construir um futuro melhor para todos.</p>
+        <a href="voluntariado.html" class="btn">Seja Voluntário</a>
+    </section>
 
     <footer>
-        <p>&copy; 2025 ONG DEXTER</p>
+        <div class="footer-container">
+            <p>&copy; 2025 ONG Dexter. Todos os direitos reservados.</p>
+            <div class="social">
+                <a href="#">Facebook</a> |
+                <a href="#">Instagram</a> |
+                <a href="#">YouTube</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
